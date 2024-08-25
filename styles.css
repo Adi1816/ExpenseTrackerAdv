@@ -2,16 +2,16 @@
 
 body {
     font-family: 'Gilroy', Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ff0051;
     margin: 0;
     padding: 0;
 }
 
-img{
-    width: 10vw;
-    height: 10vw;
-    margin-top: -5vh;
-    margin-left: 1vw;
+#heading{
+    text-align: center;
+    font-size: 36px;
+    color: #ff0051;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -19,7 +19,7 @@ img{
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -35,14 +35,15 @@ input, select, button {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #ff0051;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    transition: 0.5s;
+    background-color: #c90342;
 }
 
 #filters {
@@ -92,15 +93,16 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff0f0;
+    box-shadow: 0 0 10px rgba(172, 149, 149, 0.379);
     border-radius: 30px;
     text-align: center;
     width: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 #expense-chart {
-    align-items: center;
-    justify-content: center;
+    
     max-width: 70%; /* Responsive resizing */
 }
