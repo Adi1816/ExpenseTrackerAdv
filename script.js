@@ -130,9 +130,9 @@ function updateBudgetSummary() {
     const budgetSummary = document.getElementById('budget-summary');
     
     budgetSummary.innerHTML = `
-        <h2>Budget: $${budget.toFixed(2)}</h2>
-        <h3>Total Spent: $${totalSpent.toFixed(2)}</h3>
-        <h3>Remaining: $${(budget - totalSpent).toFixed(2)}</h3>
+        <h2>Budget: ₹${budget.toFixed(2)}</h2>
+        <h3>Total Spent: ₹${totalSpent.toFixed(2)}</h3>
+        <h3>Remaining: ₹${(budget - totalSpent).toFixed(2)}</h3>
     `;
 }
 
@@ -199,7 +199,7 @@ function updateChart() {
                     tooltip: {
                         callbacks: {
                             label: function(tooltipItem) {
-                                return `${tooltipItem.label}: $${tooltipItem.raw}`;
+                                return `${tooltipItem.label}: ₹${tooltipItem.raw}`;
                             }
                         }
                     }
