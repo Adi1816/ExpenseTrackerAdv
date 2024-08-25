@@ -14,6 +14,13 @@ body {
     margin-bottom: 20px;
 }
 
+img{
+    width: 10vw;
+    height: 10vw;
+    margin-top: -5vh;
+    margin-left: 1vw;
+}
+
 .container {
     max-width: 80%;
     margin: 0 auto;
