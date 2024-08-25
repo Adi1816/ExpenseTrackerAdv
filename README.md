@@ -9,25 +9,40 @@ Welcome to the **Expense Tracker**! This web application helps you manage and vi
 1. **User-Friendly Interface**
    - **Form Submission**: Easily add new expenses with details like description, amount, date, and category using the form.
    - **Full-Screen View**: The application is designed to be responsive, utilizing the full screen for a better user experience.
+  
+   ![Expense Tracker Screenshot](open.png)
 
 2. **Expense Management**
    - **Add Expenses**: Input expenses and categorize them to keep track of various spending areas.
    - **Delete Expenses**: Remove any unwanted entries directly from the expense list.
-
+  
+[Expense Tracker Screenshot](sort1.png)
+[Expense Tracker Screenshot](sort2.png)
+  
 3. **Filtering and Sorting**
    - **Date Range Filters**: Filter expenses by selecting a date range to view only relevant entries.
    - **Amount Range Filters**: Specify minimum and maximum amounts to focus on specific spending ranges.
    - **Sorting Options**: Sort expenses by date, amount, or category for easy analysis.
+  
+     **Before Filtering
+[Expense Tracker Screenshot](beforeFilter.png)
 
-4. **Visual Analytics**
+    **After Filtering
+[Expense Tracker Screenshot](afterFilter.png)
+
+5. **Visual Analytics**
    - **Chart Representation**: View your expenses categorized by type using a dynamic pie chart. The chart automatically updates to reflect the latest data.
+  
+[Expense Tracker Screenshot](chart.png)
 
-5. **Budget Tracking**
+6. **Budget Tracking**
    - **Set Budget**: Define a budget limit to track how much of your budget has been spent and how much remains.
    - **Budget Summary**: View a summary of your budget, total spent, and remaining balance.
 
-6. **CSV Export**
+7. **CSV Export**
    - **Export Data**: Export your expense data to a CSV file for further analysis or record-keeping.
+  
+[Expense Tracker Screenshot](csv.png)
 
 ### How It Works
 
@@ -73,9 +88,6 @@ Welcome to the **Expense Tracker**! This web application helps you manage and vi
 - **CSS**: Styling and layout of the application, including responsive design and modern UI elements.
 - **JavaScript**: Application logic, including form handling, local storage management, and chart updates.
 - **Chart.js**: A powerful library used to create the interactive pie chart.
-
-### Screenshots
-![Expense Tracker Screenshot](link-to-your-screenshot.png)
 
 ### Contributing
 
