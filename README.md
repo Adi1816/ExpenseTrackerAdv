@@ -16,8 +16,8 @@ Welcome to the **Expense Tracker**! This web application helps you manage and vi
    - **Add Expenses**: Input expenses and categorize them to keep track of various spending areas.
    - **Delete Expenses**: Remove any unwanted entries directly from the expense list.
   
-[Expense Tracker Screenshot](sort1.png)
-[Expense Tracker Screenshot](sort2.png)
+![Expense Tracker Screenshot](sort1.png)
+![Expense Tracker Screenshot](sort2.png)
   
 3. **Filtering and Sorting**
    - **Date Range Filters**: Filter expenses by selecting a date range to view only relevant entries.
@@ -25,15 +25,15 @@ Welcome to the **Expense Tracker**! This web application helps you manage and vi
    - **Sorting Options**: Sort expenses by date, amount, or category for easy analysis.
   
      **Before Filtering
-[Expense Tracker Screenshot](beforeFilter.png)
+![Expense Tracker Screenshot](beforeFilter.png)
 
     **After Filtering
-[Expense Tracker Screenshot](afterFilter.png)
+![Expense Tracker Screenshot](afterFilter.png)
 
 5. **Visual Analytics**
    - **Chart Representation**: View your expenses categorized by type using a dynamic pie chart. The chart automatically updates to reflect the latest data.
   
-[Expense Tracker Screenshot](chart.png)
+![Expense Tracker Screenshot](chart.png)
 
 6. **Budget Tracking**
    - **Set Budget**: Define a budget limit to track how much of your budget has been spent and how much remains.
@@ -42,7 +42,7 @@ Welcome to the **Expense Tracker**! This web application helps you manage and vi
 7. **CSV Export**
    - **Export Data**: Export your expense data to a CSV file for further analysis or record-keeping.
   
-[Expense Tracker Screenshot](csv.png)
+![Expense Tracker Screenshot](csv.png)
 
 ### How It Works
 
