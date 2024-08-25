@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@400;700&display=swap');
+
+body {
+    font-family: 'Gilroy', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px; /* Curved buttons */
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#filters {
+    margin-top: 20px;
+}
+
+#filters input {
+    margin-right: 10px;
+}
+
+#apply-filters {
+    margin-top: 10px; /* Added spacing */
+}
+
+#sort-container {
+    margin-top: 10px; /* Moves dropdown to next line */
+}
+
+#expense-list {
+    margin-top: 20px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.expense-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Curved buttons */
+}
+
+.expense-item button:hover {
+    background-color: #c82333;
+}
+
+#budget-summary {
+    margin-top: 20px;
+}
+
+#expense-chart-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+#expense-chart {
+    align-items: center;
+    justify-content: center;
+    max-width: 70%; /* Responsive resizing */
+}
